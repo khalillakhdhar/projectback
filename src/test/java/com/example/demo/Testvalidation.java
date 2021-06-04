@@ -16,8 +16,13 @@ public class Testvalidation {
 	@Test
 	void verifStringValues()
 	{
-		assertTrue(v.detectString(""));
+		assertTrue(v.detectString("oumayma"));
 		
+	}
+	@Test
+	void verifUrl()
+	{
+		assertTrue(v.detecturl("http:www/github.com"));
 	}
 	
 	
